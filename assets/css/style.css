@@ -9,7 +9,9 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+
 /* HEADER / NAV BAR STYLES START */
+
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -43,11 +45,14 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 10px 15px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
+
 /* HEADER / NAVBAR STYLES END */
+
+
 
 /* FOOTER STYLES START */
 footer {
@@ -146,6 +151,7 @@ section {
 } 
 /* HERO STYLES END */
 
+
 /* SECTION TITLE STYLES START */
 .section-title {
   font-size: 48px;
@@ -167,6 +173,7 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -175,7 +182,8 @@ section {
   font-size: 20px;
   text-align: center;
 }
-/* WHAT WE DO STYLES END */
+/* WHAT YOU DO STYLES END */
+
 
 /* WHAT YOU DO STYLES START */
 .steps { 
@@ -229,6 +237,7 @@ section {
   line-height: 1.5;
   color: #024e76;
 }
+
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -335,6 +344,8 @@ section {
 .contact-info a {
   color: #fce138;
 }
+
+
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
@@ -349,9 +360,8 @@ section {
 .flex-row {
   display: flex;
 }
-/*UTILITES END*/
 
-/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
@@ -381,7 +391,7 @@ section {
   .hero-cta, .hero-form {
     width: 100%;
   }
-
+  
   .hero-cta {
     text-align: center;
   }
@@ -389,17 +399,17 @@ section {
   .section-title {
     width: 80%;
   }
-
+  
   .trainer {
     flex: 0 70%;
   }
-
-  .contact-info iframe {
+  
+  .contact-info iframe{
     flex: 1 100%;
   }
 }
 
-/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   section {
     padding: 30px 15px;
@@ -424,11 +434,11 @@ section {
   }
 
   .step-text {
-    flex: 100%;
+    flex: 100%;  
   }
 }
 
-/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
   .hero-form button {
     width: 100%;
